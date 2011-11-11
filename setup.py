@@ -17,6 +17,9 @@ setup(
             'Intended Audience :: Developers',
             'License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)'
         ],
+        data_files = [
+            'COPYING.TXT',
+            'COPYING.LESSER.TXT'],
         py_modules = ['magictree'],
         long_description = '''Creating tree structures like those used for HTML and XML should be dead easy.
 The xml.etree.ElementTree library goes quite far in creating a simple to use library
